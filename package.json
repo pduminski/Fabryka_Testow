@@ -1,0 +1,15 @@
+{
+  "name": "fabryka_testow",
+  "version": "1.0.0",
+  "description": "Test automation learning with Fabryka Testow",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Duminski",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "@faker-js/faker": "7.6.0"
+  }
+}
