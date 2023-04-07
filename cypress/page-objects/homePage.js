@@ -7,6 +7,10 @@ const hooversHeader = "#hovers-header";
 const basicAuthHeader = "#basicauth-header";
 const formHeader = "#form-header";
 const keyPressesHeader = "#keypresses-header";
+const statusCodesHeader = "#statuscodes-header";
+const iFrameHeader = "#iframe-header";
+const dragAndDropHeader = "#draganddrop-header";
+const addRemoveElementsHeader = "#draganddrop-header";
 
 class HomePage {
   visitPage() {
@@ -40,6 +44,22 @@ class HomePage {
 
   clickKeyPressesTab() {
     cy.get(keyPressesHeader).click();
+  }
+
+  clickStatusCodesTab() {
+    cy.get(statusCodesHeader).click();
+  }
+
+  clickIFrameTab() {
+    cy.get(iFrameHeader).click();
+  }
+
+  clickDragAndDropTab() {
+    cy.get(dragAndDropHeader).click();
+  }
+
+  clickAddRemoveElementTab() {
+    cy.get(addRemoveElementsHeader).click();
   }
 }
 
